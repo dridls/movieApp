@@ -3,7 +3,7 @@ const passport = require("passport");
 const session = require("express-session");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const routes = require("./routes/users");
+const routes = require("./routes/usersRoutes");
 
 const app = express();
 dotenv.config();

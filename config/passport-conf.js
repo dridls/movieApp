@@ -1,6 +1,6 @@
 const LocalStrategy = require("passport-local").Strategy;
 const bcrypt = require("bcrypt");
-const User = require("../models/userModel");
+const User = require("../models/User");
 
 function initialize(passport) {
   const customFields = {
