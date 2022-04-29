@@ -7,8 +7,8 @@ initialize(passport);
 
 const checkUser = async (req, res) => {
   passport.authenticate("local", {
-    successRedirect: "/movies",
-    failureRedirect: "/login",
+    successRedirect: "/#/movies",
+    failureRedirect: "/#/login",
   })(req, res);
 };
 
